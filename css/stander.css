@@ -1,0 +1,54 @@
+/* Start Global variables */
+:root {
+  --primary-color-alt: #0366da;
+  --primary-color: #0075ff;
+  --half-white: #f8f6f6;
+  --first-color: #004aad;
+  --two-color: #5e17eb;
+  --three-color: #8c52ff;
+  --second-color: #009688;
+  --border-color: #ebebeb;
+  --color-text: #fff;
+  --color-links: #370099;
+  --main-color-all: #0088a9;
+  --back-ground-color: #1b1b1b;
+}
+
+/* End Global variables */
+
+/* Start My FrameWork  */
+
+.clear-fix {
+  clear: both;
+}
+
+.li-none {
+  list-style: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul:not(.classic),
+ol:not(.classic) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* End My FrameWork  */
